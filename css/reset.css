@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul, ol{
+    list-style: none;
+}
+
+@media(max-width: 1303px){
+    .content-contato {
+        padding-top: 35vh;
+        margin-bottom: 20px;
+        transition: all 1s;
+        width: 100vw;
+        height: 30vh;
+    }
+}
